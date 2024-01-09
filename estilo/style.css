@@ -102,6 +102,9 @@ footer a:hover{
     margin-bottom: 50px;
 }
 @media (max-width: 480px){
+    header p{
+        font-size: 0.8em;
+    }
     main p{
     font-size: 1em;
     }
@@ -112,8 +115,18 @@ footer a:hover{
         min-width: 200px;
 
     }
+    footer p{
+        font-size: 0.6em;
+        
+    }
 }
 @media (min-width: 481px) and (max-width: 767px){
+    header h1{
+        font-size: 2.7em;
+    }
+    header p{
+        font-size: 0.9em;
+    }
     main p{
         font-size: 1.2em;
         }
@@ -125,8 +138,14 @@ footer a:hover{
             min-width: 230px;
             max-width: 20px;
         }
+        footer p{
+            font-size: 0.7em;
+        }
 }
 @media (min-width: 768px) and (max-width: 1024px){
+    header h1{
+        font-size: 3.4em;
+    }
     main p{
         font-size: 1.5em;
         }
@@ -138,8 +157,14 @@ footer a:hover{
             min-width: 280px;
             padding: 5px 5px 0px 5px;
         }
+        footer p{
+            font-size: 0.8em;
+        }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
+    header h1{
+        font-size: 3.8em;
+    }
     main p{
         font-size: 1.7em;
         }
@@ -149,10 +174,16 @@ footer a:hover{
         .img2 p{
             min-width: 320px;
         }
+        footer p{
+            font-size: 0.9em;
+        }
 }
 @media (min-width: 1281px){
+    header h1{
+        font-size: 4.2em;
+    }
     main p{
-        font-size: 2em;
+        font-size: 1.9em;
         }
         .img1 p{
             min-width:  380px;
