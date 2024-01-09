@@ -43,7 +43,7 @@ header > p > a:hover{
 main > p{
     font-family: var(--fonte3);
     margin-top: 40px;
-    padding: 30px;
+    padding: 0px 0px 0px 30px;
     line-height: 2em;
 }
 .img1{
@@ -54,14 +54,16 @@ main > p{
     padding: 40px 30px;
     background-size: cover;
     box-shadow: inset 7px 7px 10px rgba(0, 0, 0, 0.452);
+    margin-top:50px;
 }
 .img1 > p{
     max-width: 200px;
     background-color: rgba(0, 0, 0, 0.575);
     color: white;
     font-family: var(--fonte3);
-    padding: 10px;
+    padding: 5px 0px 0px 5px;
     line-height: 2em;
+    font-weight: normal;
 }
 .img2{
     background-image: url('../imagens/background002.jpg');
@@ -71,6 +73,7 @@ main > p{
     padding: 40px 30px;
     background-size: cover;
     box-shadow: inset 7px 7px 10px rgba(0, 0, 0, 0.452);
+    margin-top: 50px;
 }
 .img2 > p{
     max-width: 200px;
@@ -95,6 +98,66 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-@media (min-width: 600px){
+.up{
+    margin-bottom: 50px;
+}
+@media (max-width: 480px){
+    main p{
+    font-size: 1em;
+    }
+    .img1 p{
+        min-width: 200px;
+    }
+    .img2 p{
+        min-width: 200px;
 
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    main p{
+        font-size: 1.2em;
+        }
+        .img1 p{
+            min-width: 230px;
+            max-width: 20px;
+        }
+        .img2 p{
+            min-width: 230px;
+            max-width: 20px;
+        }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    main p{
+        font-size: 1.5em;
+        }
+        .img1 p{
+            min-width: 280px;
+            padding: 5px 5px 0px 5px;
+        }
+        .img2 p{
+            min-width: 280px;
+            padding: 5px 5px 0px 5px;
+        }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    main p{
+        font-size: 1.7em;
+        }
+        .img1 p{
+            min-width: 320px;
+        }
+        .img2 p{
+            min-width: 320px;
+        }
+}
+@media (min-width: 1281px){
+    main p{
+        font-size: 2em;
+        }
+        .img1 p{
+            min-width:  380px;
+        }
+        .img2 p{
+            min-width:  380px;
+        }
 }
